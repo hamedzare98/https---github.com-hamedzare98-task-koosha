@@ -17,7 +17,7 @@
 body {
   font-family: Shabnam !important;
   direction: rtl;
-  background-color: #F3F8FC;
+  background-color: #F3F8FC !important;
 }
 /* header */
 .navbar {
@@ -25,6 +25,13 @@ body {
   padding: 20px;
   background-color: #ffffff;
   margin-top: 20px;
+
+}
+.navbar a{
+  color: #3A8BCf !important;
+}
+.navbar a:hover{
+  border-bottom: 1px solid #034a94;
 }
 .navbar-brand {
   margin-left: auto; 
@@ -149,22 +156,10 @@ nav ul li a:hover{
   box-shadow: inset 0px 15px 36px 8px rgba(3, 53, 169, 0.145);
 }
 /* box */
-.box::before {
-  content: '';
-  width: 80px;
-  height: 80px;
-  background: red;
-  position: absolute;
-  left: -9px;
-  top: 60px;
-  border-radius: 30%;
-  z-index: -1;
-}
 .mainbox{
 display: flex;
 justify-content: space-around;
 padding: 50px 0;
-position: relative;
 }
 .box{
 background-color: #fff;
@@ -178,7 +173,6 @@ justify-content: center;
 align-items:space-around;
 flex-wrap: wrap;
 box-shadow: 0px 10px 12px 0px rgba(228, 228, 228, 0.544);
-z-index: 9999;
 }
 .icongif{
   max-width: 90px;
@@ -447,6 +441,13 @@ img.icongifsocial{
 }
 /* respansiv */
 @media only screen and (max-width:768px) {
+  .navbar-brand {
+    margin-left: 0 !important; 
+    transform: scale(0.5);
+  }
+  .navbar{
+    justify-content: center !important;
+  }
   .navbar-toggler{
 font-size: 12px !important;
   }
