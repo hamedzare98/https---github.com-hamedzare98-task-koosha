@@ -28,7 +28,7 @@ body {
 
 }
 .navbar a{
-  color: #3A8BCf !important;
+  color: #034A94 !important;
 }
 .navbar a:hover{
   border-bottom: 1px solid #034a94;
@@ -51,34 +51,6 @@ body {
 .nav-item{
   color: #034A94 !important;
 }
-
-/* #header{
-  height: 90px;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color:#fff;
-    margin-top: 50px;
-} */
-
-/* #header .logo{
-  height: 90px;
-}
-#header .logo img{
-  height: 90px;
-}
-
-#nav ul li{
-  display: inline-block;
-}
-#nav ul li a{
-  text-decoration: none;
-  padding-right: 20px;
-  padding: 20px;
-}
-nav ul li a:hover{
-  border-bottom: 1px solid #3A8BCf;
-} */
 /* content */
 .content{
   margin-top: 50px !important;
@@ -194,7 +166,7 @@ box-shadow: 0px 10px 12px 0px rgba(228, 228, 228, 0.544);
 .contenttakhfif .divtexttakhfif{
   padding: 10px;
   color: #000;
-  flex-basis: 50%;
+  flex-basis: 60%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -214,7 +186,7 @@ box-shadow: 0px 10px 12px 0px rgba(228, 228, 228, 0.544);
 }
 
 .maintptakhfif{
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
   text-align: justify;
   width: 75%;
@@ -231,12 +203,13 @@ box-shadow: 0px 10px 12px 0px rgba(228, 228, 228, 0.544);
   width: 75%;
 }
 .divimgtakhfif{
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .imgtakhfif{
   border-radius: 0 20px 20px 0;
-  width: 90%;
+  width: 400px;
+  height: 400px;
   padding: 0;
 }
 .spanptakhfif{
@@ -511,8 +484,8 @@ font-size: 12px !important;
 
   .contenttakhfif{
     width: 100%;
-    flex-direction: column;
-  }
+    flex-direction:column-reverse
+    }
   .contenttakhfif .divtexttakhfif{
     align-items:center;
     flex-basis: 100%;
@@ -530,10 +503,13 @@ font-size: 12px !important;
   }
   .imgtakhfif{
     border-radius:20px;
-    width: 90%;
+    width: 200px;
+    height: 200px;
     text-align: center;
   }
-  
+  .mainttakhfif{
+    font-size: 20px;
+  }
   #sectionp{
     border: 2px dashed #3A8BCf;
     border-radius: 0px 0 20px 20px ;
@@ -546,6 +522,7 @@ font-size: 12px !important;
     padding:50px 0;
   }
   .titleh2{
+    margin-top: 20px;
     text-align: center;
     font-size: 24px;
     color: #034a94;
@@ -574,6 +551,7 @@ font-size: 12px !important;
   .box2{
     margin-bottom: 15px;
     padding: 5px;
+    margin-top: 20px;
   }
   .t1{
     font-size: 18px;
@@ -596,9 +574,15 @@ font-size: 12px !important;
     flex-wrap: wrap;
     padding: 24px;
   }
+  .titlefooter{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
   .pfooter{
     line-height: 30px;
     font-size: 16px;
+    text-align: center !important;
   }
   .boxfooter{
     margin-bottom: 15px;
